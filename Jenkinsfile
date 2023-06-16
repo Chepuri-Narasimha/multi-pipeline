@@ -11,9 +11,10 @@ pipeline{
                 }
                 }
         }
-        stage("test"){
+        stage("test_dev_stage"){
             steps {
                  echo "testing stage "
+                 echo " adding second commit"
                 }
         }
         stage("deploy"){
