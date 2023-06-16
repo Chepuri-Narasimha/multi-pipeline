@@ -14,7 +14,7 @@ pipeline{
         stage("test_dev_stage"){
             steps {
                  echo "testing stage "
-                 echo " adding second commit"
+                 echo " adding second commit and third commit"
                 }
         }
         stage("deploy"){
